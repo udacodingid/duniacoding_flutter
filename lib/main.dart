@@ -96,3 +96,24 @@ class PageHome extends StatelessWidget {
     );
   }
 }
+
+class PageSatu extends StatefulWidget {
+  const PageSatu({Key? key}) : super(key: key);
+
+  @override
+  _PageSatuState createState() => _PageSatuState();
+}
+
+class _PageSatuState extends State<PageSatu> {
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
