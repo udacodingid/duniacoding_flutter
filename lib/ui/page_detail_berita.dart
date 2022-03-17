@@ -1,3 +1,4 @@
+import 'package:duniacoding_flutter/ui/page_widget.dart';
 import 'package:flutter/material.dart';
 
 class PageDetailBerita extends StatelessWidget {
@@ -119,7 +120,8 @@ class PageDetailBerita extends StatelessWidget {
                 color: Colors.black
               ),),
             ),
-          )
+          ),
+          PageWidget()
         ],
       ),
     );
