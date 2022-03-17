@@ -1,3 +1,5 @@
+import 'package:duniacoding_flutter/ui/page_home.dart';
+import 'package:duniacoding_flutter/ui/page_splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,8 +35,8 @@ class MyApp extends StatelessWidget {
 //stateless : statis 
 //statefull : powerfull atau dinamis 
 
-class PageHome extends StatelessWidget {
-  const PageHome({Key? key}) : super(key: key);
+class PageHomeOld extends StatelessWidget {
+
 
   //AppBar : Widget
   //appBar : Properti
